@@ -7,19 +7,5 @@ class Wine {
     var date: String? = null
     var note: String? = null
 
-    constructor(
-        title: String?,
-        trademark: String?,
-        country: String?,
-        date: String?,
-        note: String?
-    ) {
-        this.title = title
-        this.trademark = trademark
-        this.country = country
-        this.date = date
-        this.note = note
-    }
-
     constructor() {}
 }
