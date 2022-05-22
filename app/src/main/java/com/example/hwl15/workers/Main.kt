@@ -13,7 +13,7 @@ fun main() {
 
     workers.sortByDescending { it.calculateAveragePayment() }
 
-    for (w in workers) {
-        println(w)
+    workers.forEach {
+        println(it)
     }
 }

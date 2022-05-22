@@ -5,7 +5,4 @@ abstract class Workers(var id: Int, var name: String) {
     override fun toString(): String {
         return "#$id $name"
     }
-
-    val averagePayment: Double
-        get() = calculateAveragePayment()
 }
